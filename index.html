@@ -56,8 +56,21 @@
         p{
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 15px;
             font-size: 15px;
+        }
+
+        @keyframes fa-beat {
+        0%,
+        90% {
+            -webkit-transform: scale(1);
+            transform: scale(1)
+            }
+
+        45% {
+            -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25))
+            }
         }
     </style>
 </head>
@@ -67,8 +80,7 @@
         <img class="qr" src="image-gpay.png" alt="Qr not found">
         <span>scan to pay with any UPI app</span>
         <p><i class="fa-brands fa-google-pay fa-beat fa-xl"></i> <i class="fa-brands fa-amazon-pay fa-beat-fade fa-lg"></i> <i class="fa-brands fa-apple-pay fa-beat fa-xl"></i> <i class="fa-brands fa-paypal fa-beat-fade"></i></p>
-        <!-- <p><i class="fa-solid fa-building-columns" style="color: #9d9f9f;"></i>Bandhan Bank 1559 ></p> -->
-        <p>UPI ID: saptarsismmitra@okhdfcbank <i class="fa-regular fa-copy" style="color: #9d9f9f;"></i></p>
+        <p>UPI ID: saptarsismmitra@okhdfcbank <i class="fa-regular fa-copy"></i></p>
         <p>scan this code to Buy me a coffee<i class="fa-solid fa-mug-hot"></i></p>
     </div>
     
