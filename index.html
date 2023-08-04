@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: cursive;
+            background: linear-gradient(110deg, #1893df 60%, #9fcd72 60%);;
+        }
+        .head{
+            font-family: serif;
+            font-size: 25px;
+        }
+        .card{
+            outline: auto;
+            width: 400px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            line-height: 40px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            /* box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+            filter: blur(10px); */
+        }
+        /* p,.qr,span{
+            position: relative;
+            z-index: 1;
+        } */
+        .pf{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+        .qr{
+            width: 300px;
+        }
+        span{
+            font-size: 10px;
+        }
+        p{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <p class="head"><img class="pf" src="./p-f.png" alt="not found">Saptarsi Mitra</p>
+        <img class="qr" src="./image-gpay.png" alt="Qr not found">
+        <span>scan to pay with any UPI app</span>
+        <p><i class="fa-brands fa-google-pay fa-beat fa-xl"></i> <i class="fa-brands fa-amazon-pay fa-beat-fade fa-lg"></i> <i class="fa-brands fa-apple-pay fa-beat fa-xl"></i> <i class="fa-brands fa-paypal fa-beat-fade"></i></p>
+        <!-- <p><i class="fa-solid fa-building-columns" style="color: #9d9f9f;"></i>Bandhan Bank 1559 ></p> -->
+        <p>UPI ID: saptarsismmitra@okhdfcbank <i class="fa-regular fa-copy" style="color: #9d9f9f;"></i></p>
+        <p>scan this code to Buy me a coffee<i class="fa-solid fa-mug-hot"></i></p>
+    </div>
+    
+</body>
+</html>
